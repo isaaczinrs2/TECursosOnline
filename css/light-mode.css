@@ -1,0 +1,39 @@
+:root {
+    --primary-color: #6c63ff;
+    --secondary-color: #4d44db;
+    --accent-color: #ff6584;
+    --text-color: #333;
+    --text-light: #777;
+    --bg-color: #f9f9ff;
+    --white: #ffffff;
+    --black: #000000;
+    --gray-light: #f1f1f1;
+    --gray-medium: #e0e0e0;
+    --gray-dark: #888;
+    --box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+header {
+    background-color: var(--white);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.course-card,
+.contact-form {
+    background-color: var(--white);
+    box-shadow: var(--box-shadow);
+}
+
+.about {
+    background-color: var(--white);
+}
+
+.footer {
+    background-color: #2a2a2a;
+    color: var(--white);
+}
